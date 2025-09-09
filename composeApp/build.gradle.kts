@@ -46,13 +46,7 @@ kotlin {
             implementation(libs.compose.ui.tooling.preview)
             implementation(libs.androidx.activity.compose)
             implementation(libs.ktor.client.okhttp)
-            implementation ("com.cloudinary:cloudinary-android:2.5.0")
-            //Auth0
-            implementation ("com.auth0.android:auth0:2.+")
 
-            implementation("androidx.media3:media3-exoplayer:1.1.0")
-            implementation("androidx.media3:media3-exoplayer-dash:1.1.0")
-            implementation("androidx.media3:media3-ui:1.1.0")
             implementation(project.dependencies.platform("com.google.firebase:firebase-bom:33.1.1"))
 
             // Add the dependency for the Firebase Authentication library
